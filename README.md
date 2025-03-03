@@ -41,8 +41,8 @@ Active State
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub URL](https://github.com/AgnerShimokawa/base-apparel-coming-soon-page)
+- Live Site URL: [Live site URL](https://agnershimokawa.github.io/base-apparel-coming-soon-page/)
 
 ## My process
 
