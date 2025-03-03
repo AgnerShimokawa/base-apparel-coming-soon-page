@@ -1,0 +1,105 @@
+@media (max-width: 1000px) {
+    .mobile-picture {
+        grid-area: mobile-picture;
+    }
+
+    .container {
+        grid: 
+        "logo-holder"
+        "mobile-picture"
+        "info-side";
+    }
+
+    .container .main-side {
+        background: none;
+        min-height: 100vh;
+    }
+
+    .container .logo-holder{
+        height: 40px;
+        width: 130px;
+        padding-left: 32px;
+        top: 0;
+        margin-top: 16px;
+    }
+
+    .container .mobile-picture {
+        height: 45vh;
+        width: 100vw;
+        background: url(../../images/hero-mobile.jpg) no-repeat;
+        background-size: cover;
+        margin: 28px 0;
+    }   
+
+    .container .info-side {
+        top: 38px;
+        margin: 0;
+    }
+
+    .container .info-side .page-logo {
+        padding-bottom: 0;
+    }
+
+    .container .info-side .main-text {
+        font-size: 50px;
+        text-align: center;
+        letter-spacing: 12px;
+        line-height: 55px;
+        padding-bottom: 25px;
+    }
+
+    .container .info-side .description {
+        text-align: center;
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: 0.4px;
+        padding: 0 100px 31px 100px;
+    }
+
+    .container .email-form {
+        padding-bottom: 80px;
+        text-align: center;
+    }
+
+    .container .email-form .submit-button {
+        right: 32px;
+    }
+
+    .container .email-form .user-email::placeholder {
+        font-size: 14px;
+        padding-left: 0;
+        position: absolute;
+        left: 22px;
+    }
+
+    .container .picture-side {
+        display: none;
+    }
+}
+
+@media (max-width: 800px) {
+    .container .mobile-picture {
+        height: 31vh;
+    }
+
+    .container .info-side .main-text {
+        font-size: 38px;
+        line-height: 42px;
+        padding-bottom: 17px;
+    }
+
+    .container .info-side .description {
+        padding: 0 33px 31px 32px;
+    }
+
+    .container .email-form .user-email {
+        padding: 15px 70px 15px 70px;
+        width: 80%;
+    }
+
+    .container .email-form .submit-button {
+        right: 32px;
+        height: 47px;
+        width: 65px;
+    }
+}
